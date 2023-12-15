@@ -1,0 +1,14 @@
+1. cd into barrett_hand-kinetoc-ft-sensor/, source the package
+2. roslaunch bhand_controller bhand_controller.launch
+3. In a new terminal, cd into the same directory, source the package, and run: rosrun bhand_controller grab_node.py
+4. Enter the desired angle as prompted; 0.3-0.4 have been tested to work well with the printed tool handle
+5. Press 1, and the hand will open to the request angle and close slowly until the force threshold is met
+6. Press 0 to open again or reset the angle
+
+update 9/22/23: run rosrun bhand_controller grasp_node.py
+monitor the forces by running rosrun rqt_bhand rqt_bhand
+
+
+camera package: flir_cam_driver
+
+

@@ -1,0 +1,8 @@
+prefix=/home/surgrob/barrett_hand-kinetic-ft-sensor/devel
+
+Name: bhand_controller
+Description: Description of bhand_controller
+Version: 0.1.2
+Cflags: -I/home/surgrob/barrett_hand-kinetic-ft-sensor/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

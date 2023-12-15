@@ -1,0 +1,8 @@
+prefix=/home/surgrob/barrett_hand-kinetic-ft-sensor/devel
+
+Name: rqt_bhand
+Description: Description of rqt_bhand
+Version: 0.1.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
